@@ -1,0 +1,17 @@
+Conditional Statement - a sequence of code that execcute under a certain condition
+
+Selection / Branch - a sequence of code
+
+Decision Boxes - a conditional statement in a coral flowchart
+
+If-else -  a specialized boolean
+
+If-elseif branches - a series of cascading decisions
+
+Equality Operator - ==  , its the = in < , > , =
+
+Boolean - a true, false statement
+
+Nested Branches - an if-else statement within a if-else statement
+
+Multiple if branches - multiple decisions in a sequence independent of each other

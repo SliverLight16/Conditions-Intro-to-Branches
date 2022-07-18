@@ -1,0 +1,14 @@
+integer hotelRate
+integer userAge
+
+hotelRate = 135
+userAge = Get next input
+
+if userAge < 65
+   Put "Your Rate: " to output
+   Put hotelRate to output
+   
+else 
+   hotelRate = hotelRate - 20
+   Put "Your Rate: " to output
+   Put hotelRate to output

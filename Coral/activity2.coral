@@ -1,0 +1,8 @@
+integer val
+
+val = Get next input
+
+if val < 0
+   val = -val
+
+Put val to output

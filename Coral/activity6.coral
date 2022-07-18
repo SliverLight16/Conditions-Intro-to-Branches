@@ -1,0 +1,21 @@
+integer numStrokes
+
+numStrokes = Get next input
+
+if numStrokes <= 0
+   Put "Invalid Entry" to output
+
+elseif numStrokes == 1
+   Put "Hole in 1" to output
+   
+elseif numStrokes == 2
+   Put "Eagle" to output
+
+elseif numStrokes == 3
+   Put "Birdie" to output
+   
+elseif numStrokes == 4
+   Put "Par" to output
+   
+else
+   Put "Better Luck Next Time!" to output

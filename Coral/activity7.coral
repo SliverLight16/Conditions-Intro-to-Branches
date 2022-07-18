@@ -1,0 +1,18 @@
+integer age
+
+age = Get next input
+
+if age < 6
+   Put "No Teams Available" to output
+
+elseif age < 8
+   Put "Play on U8 team" to output
+   
+elseif age < 10
+   Put "Play on U10 team" to output
+
+elseif age < 12
+   Put "Play on U12 team" to output
+   
+else
+   Put "No Teams Available" to output

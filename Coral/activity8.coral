@@ -1,0 +1,25 @@
+integer userAge
+integer insurePrice
+
+userAge = Get next input
+
+if userAge < 16
+   //younger than 16
+   Put "Too Young" to output
+   insurePrice = 0
+
+elseif userAge < 25
+   // 16 - 24
+   insurePrice = 4800
+
+elseif userAge < 40
+   //25 - 39
+   insurePrice = 2350
+   
+else
+   // over 40
+   insurePrice = 2100
+   
+Put "Annual Price: $" to output
+Put insurePrice to output
+   

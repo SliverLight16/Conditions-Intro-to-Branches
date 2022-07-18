@@ -1,0 +1,14 @@
+integer y
+integer x
+integer max
+
+x = Get next input
+y = Get next input
+
+if x < y
+   max = y
+
+else
+   max = x
+   
+Put max to output

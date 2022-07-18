@@ -1,0 +1,15 @@
+integer numYears
+
+numYears = Get next input
+
+if numYears == 1
+   Put "Newlyweds" to output
+
+elseif numYears == 25
+   Put "Sliver" to output
+   
+elseif numYears == 50
+   Put "Golden" to output
+
+else
+   Put "Congrats" to output

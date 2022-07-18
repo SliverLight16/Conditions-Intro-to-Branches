@@ -1,0 +1,19 @@
+integer rideAge
+integer rideHeight
+
+rideAge = Get next input
+rideHeight = Get next input
+
+if rideAge < 10
+   Put "Too Young, Can't Ride" to output
+   
+else
+   if rideAge < 80
+      if rideHeight < 48
+         Put "Too Short, Can't Ride" to output
+      
+      else
+         Put "Can Ride :)" to output
+      
+   else 
+      Put "Can ride, but ¯\_(ツ)_/¯" to output
