@@ -9,14 +9,14 @@ int main() {
     cout << "Type a number:";
     cin >> userAge;
 
-if (userAge < 65) {
+   if (userAge < 65) {
    cout << "Your Rate: ";
    cout << hotelRate; }
-   
-else 
+
+   else {
    hotelRate = hotelRate - 20;
    cout << "Your Rate: ";
    cout << hotelRate;
+   }
 
-return 0;
 }
